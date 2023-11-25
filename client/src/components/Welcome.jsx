@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+nimport React, { useContext } from 'react';
 import { SiEthereum } from 'react-icons/si';
 import { BsInfoCircle } from 'react-icons/bs';
 
@@ -37,10 +37,10 @@ const Welcome = () => {
         <div className="flex mf:flex-row flex-col items-start justify-between md:p-20 py-12 px-4">
           <div className="flex flex-1 justify-start items-start flex-col mf:mr-10">
             <h1 className="text-3xl sm:text-5xl text-white text-gradient py-1">
-              Now hailing a ride is super easy, <br /> and future-ready too.
+              Waste disposal made easy, <br /> and future-ready too.
             </h1>
             <p className="text-left mt-5 text-white font0light md:w-9/12 w-11/12 text-base">
-                Now an decentralized ride-sharing application, with elevated experience
+                Now a secure exchange application for e-waste.
             </p>
             {!currentAccount && (
             <button
@@ -91,7 +91,7 @@ const Welcome = () => {
                 <div className="p-5 sm:w-96 w-full flex flex-col justify-start items-center blue-glassmorphism">
                     <Input placeholder="Address To" name="addressTo" type="text" handleChange={handleChange}/>
                     <Input placeholder="Amount (ETH)" name="amount" type="number" handleChange={handleChange}/>
-                    <Input placeholder="Keyword (Gif)" name="keyword" type="text" handleChange={handleChange} />
+                    <Input placeholder="Keyword" name="keyword" type="text" handleChange={handleChange} />
                     <Input placeholder="Enter Message" name="message" type="text" handleChange={handleChange} />
 
                     <div className="h-[1px] w-full bg-gray-400 my-2"/>
