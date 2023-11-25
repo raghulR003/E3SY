@@ -17,14 +17,14 @@ const Footer = () => (
     </div>
 
     <div className="flex justify-center items-center flex-col mt-5">
-      <p className="text-white text-sm text-center font-medium mt-2">rag2003hul@gmail.com</p>
+      <p className="text-white text-sm text-center font-medium mt-2">@tce.edu</p>
     </div>
 
     <div className="sm:w-[90%] w-full h-[0.25px] bg-gray-400 mt-5 " />
 
     <div className="sm:w-[90%] w-full flex justify-between items-center mt-3">
-      <p className="text-white text-left text-xs">Done with love, and a little bit of React</p>
-      <p className="text-white text-right text-xs">Credits: Me</p>
+      <p className="text-white text-left text-xs">TEAM TECHCREW</p>
+      <p className="text-white text-right text-xs">Suruthika, Shivani, Nigitha</p>
     </div>
   </div>
 );
