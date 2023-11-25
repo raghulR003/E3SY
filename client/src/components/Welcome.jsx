@@ -1,4 +1,4 @@
-nimport React, { useContext } from 'react';
+import React, { useContext } from 'react';
 import { SiEthereum } from 'react-icons/si';
 import { BsInfoCircle } from 'react-icons/bs';
 
