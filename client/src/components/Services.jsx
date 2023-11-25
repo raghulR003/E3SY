@@ -39,13 +39,13 @@ const Services = () => (
           color="bg-[#8945F8]"
           title="Best exchange rates"
           icon={<BiSearchAlt fontSize={21} className="text-white" />}
-          subtitle="You're worth your time in the ride, so we make sure you are never overcharged."
+          subtitle="You're worth your time, so we make sure you are never overcharged in the exchange."
         />
         <ServiceCard
           color="bg-[#F84550]"
           title="Fastest transactions"
           icon={<RiHeart2Fill fontSize={21} className="text-white" />}
-          subtitle="Ride without monetary complications and that's forever."
+          subtitle="Dispose E-Waste without monetary complications and that's forever."
         />
       </div>
     </div>
